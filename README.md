@@ -63,11 +63,19 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  i looked at my inspect console and got error 404 not_found.
+  looked at my terminal and saw the controller that had the error. i then went to that controller and fixed the error.
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  i checked my inspect tab and so a fetch request error
+  went to check if my data is being returned in a json format since i was sure that the front end code did not have any issues.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+
+  i got an error of 404 not found in my inspect console and an error of no route matches delete in my terminal.
+  went to the routes and saw that i didn't have a destroy route, so i had to add it and wala, i was able to implement the delete function.
+
